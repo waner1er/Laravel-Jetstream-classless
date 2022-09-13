@@ -22,11 +22,11 @@
 
             <div >
                 <x-jet-label for="password" value="{{ __('Password') }}" />
-                <x-jet-input id="password" type="password" name="password" required autocomplete="current-password" />
+                <x-jet-input id="password"  type="password" name="password" required autocomplete="current-password" />
             </div>
 
             <div>
-                <label for="remember_me" >
+                <label for="remember_me">
                     <x-jet-checkbox id="remember_me" name="remember" />
                     <span>{{ __('Remember me') }}</span>
                 </label>
@@ -34,12 +34,12 @@
 
             <div >
                 @if (Route::has('password.request'))
-                    <a  href="{{ route('password.request') }}">
+                    <a href="{{ route('password.request') }}">
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
 
-                <x-jet-button>
+                <x-jet-button >
                     {{ __('Log in') }}
                 </x-jet-button>
             </div>
