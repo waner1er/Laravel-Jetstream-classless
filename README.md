@@ -3,8 +3,9 @@
 <h2>Installation</h2>
 <p>Install the preset via composer:</p>
 <pre><code>composer install </code></pre>
-<p>Run  command:</p>
+<p>Run  commands:</p>
 <pre><code>yarn install</code></pre>
+<pre><code>yarn add sass</code></pre>
 <p>Run  command:</p>
     <pre><code>php artisan preset classless</code></pre>
 
