@@ -1,0 +1,6 @@
+.container {
+    width: 100%;
+    @include minWidth(960px) {
+        width: calc(100% - 3.2rem);
+    }
+}
